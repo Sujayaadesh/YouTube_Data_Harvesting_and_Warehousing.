@@ -10,6 +10,8 @@
 YouTube is an American online video sharing and social media platform ,it was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim. It is owned by Google and is the second most visited website, after Google Search.it has grown into a global phenomenon, serving as a hub for entertainment, education, and community engagement. With its vast user base and diverse content library, YouTube has become a powerful tool for individuals, creators, and businesses to share their stories, express themselves, and connect with audiences worldwide. 
 
 This project extracts the particular youtube channel datas like playlist data,video data and comment data by using the youtube channel id, processes the data, and stores it in the MongoDB database and It has the option to migrate the data to MySQL tables from MongoDB then analyse the data and give the results depending on the user questions.
+![image](https://github.com/Sujayaadesh/YouTube_Data_Harvesting_and_Warehousing./assets/125663811/c82614c5-e50b-4f4d-ac0e-8767568a4f86)
+
 ## Guide
 
 ## Tools:
@@ -79,3 +81,5 @@ select the channel name that you want migrate and click the ***Migrate to MySQL*
 ### 3 - Channel Data Analysis
 
 Select a question according to your needs from the ***options*** and you can get those data in dataframe table formate 
+
+![image](https://github.com/Sujayaadesh/YouTube_Data_Harvesting_and_Warehousing./assets/125663811/60266ad3-3b89-435d-8b7c-af179e0e5734)
