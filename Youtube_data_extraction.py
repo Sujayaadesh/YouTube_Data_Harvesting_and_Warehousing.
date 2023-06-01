@@ -330,7 +330,7 @@ def main():
         doc_name.append(doc["channel_details"]["channelName"])
     Channel_names = st.selectbox("Select Channel name",options = doc_name, key = doc_name)
     st.write("*****Migrate data to MySQL from MongoDB*****")
-    if st.button("Migrate to MySQL"):
+    if st.button("**Migrate to MySQL**"):
         st.success("data_extracted to :green[MySQL]")
     if Channel_names:
         Channel_NAme = {"channel_details.channelName" : Channel_names}
